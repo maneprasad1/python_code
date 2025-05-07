@@ -1,0 +1,6 @@
+n = int(input("Enter a number "))
+bina = bin(n)
+hexa = hex(n)
+octa = oct(n)
+print(n)
+print(bina,hexa,octa)
