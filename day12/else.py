@@ -1,8 +1,7 @@
 
 def func1():
 	try:
-		print("in try",c1)
-	
+		print("in try")	
 		return 1
 	except:
 		print("In except")
