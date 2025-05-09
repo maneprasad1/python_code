@@ -5,7 +5,7 @@ Created on Mon May  8 15:27:03 2023
 @author: cdacstaff
 """
 
-import mysql.connector
+import mysql.connector # type: ignore
 
 # Create new table
 
@@ -79,7 +79,7 @@ cnx.close()
 
 
 """Another syntax"""
-from mysql.connector import connect
+from mysql.connector import connect # type: ignore
 """ Connect to mySQL server and create new data base"""
 """
 with connect(host="localhost",user="root",password="root123") as connection:
