@@ -7,7 +7,7 @@ Created on Mon May  8 14:46:18 2023
 
 #pip install mysql-connector-python
 
-import mysql.connector # type: ignore
+import mysql.connector
 
 cnx = mysql.connector.connect(user='root', 
                               password='PrasadM@2003',

@@ -5,7 +5,7 @@ Created on Mon May  8 15:27:03 2023
 @author: cdacstaff
 """
 
-import mysql.connector # type: ignore
+import mysql.connector 
 
 # Create new table
 
